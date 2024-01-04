@@ -35,6 +35,14 @@ List of Git commands
 
 Your modifications will be kept. When you run `git status` the file will once again show up as modified but not yet staged.
 
+### To unstage a specific file
+
+- `git reset <file>` -> That will remove the file from the current index (the "about to be committed" list) without changing anything else. 
+
+To unstage all files from the current change set:
+- `git reset`
+
+
 # Push an existing repository from the command line
 - `git remote add origin <url>`  -> Add the URL for the remote repository where your local repository will be pushed
 - `git remote add origin https://github.com/karan-1700/Git-Commands.git`
