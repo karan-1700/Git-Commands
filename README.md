@@ -42,11 +42,22 @@ Your modifications will be kept. When you run `git status` the file will once ag
 To unstage all files from the current change set:
 - `git reset`
 
-
 # Push an existing repository from the command line
 - `git remote add origin <url>`  -> Add the URL for the remote repository where your local repository will be pushed
 - `git remote add origin https://github.com/karan-1700/Git-Commands.git`
 - `git push origin master`
+
+
+# Create Personal Access Token on GitHub
+
+From 2021-08-13, GitHub is no longer accepting account passwords when authenticating Git operations. You need to add a PAT (Personal Access Token) instead, and you can follow the below method to add a PAT on your system.
+
+> From your GitHub account, go to **Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token** (Give your password) → **Fillup the form** → click **Generate token → Copy the generated Token**, it will be something like `ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta`
+
+
+# Clone on Linux/Debian (`git clone` as follows):
+
+`git clone https://<tokenhere>@github.com/<user>/<repo>.git`
 
 
 
