@@ -10,7 +10,7 @@ git add .
 git status
 git commit -m "initial commit"
 
-git remote set-url origin https://<<SSH Key>>@github.com/karan-1700/Git-Commands
+git remote set-url origin https://<SSH Key>@github.com/<user>/<repo>
 git push origin main
 ```
 
@@ -44,7 +44,7 @@ To unstage all files from the current change set:
 
 # Push an existing repository from the command line
 - `git remote add origin <url>`  -> Add the URL for the remote repository where your local repository will be pushed
-- `git remote add origin https://github.com/karan-1700/Git-Commands.git`
+- `git remote add origin https://github.com/<user>/<repo>.git`
 - `git push origin master`
 
 
